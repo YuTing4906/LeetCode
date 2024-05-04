@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
+            for j in range(i + 1, len(nums)):      # 第二輪從第二個元素往後加即可
                  result = nums[i] + nums[j]
                  if result == target:
                     return [i, j]
