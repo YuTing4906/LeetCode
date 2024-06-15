@@ -8,7 +8,7 @@
 [完整題目](https://leetcode.com/problems/two-sum/description/)
 
 ## 解題想法 :bulb:
-- **想法一 :**&nbsp;&nbsp;&nbsp;&nbsp;[程式碼 --> 1_Two Sum(v1).py](https://github.com/YuTing4906/LeetCode/blob/main/1/1_Two%20Sum(v1).py "想法二的程式碼")   
+- **想法一 :**&nbsp;&nbsp;&nbsp;&nbsp;[程式碼 --> 1_Two Sum(v1).py](https://github.com/YuTing4906/LeetCode/blob/main/1/1_Two%20Sum(v1).py "想法一的程式碼")   
   - 使用兩個for迴圈
   - 第一輪從第一個元素往後加，去判斷相加的結果是否為`target`  
     第二輪從第二個元素往後加，去判斷相加的結果是否為`target`，依此類推...  
